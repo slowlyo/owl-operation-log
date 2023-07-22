@@ -3,7 +3,6 @@
     "alias": "操作日志",
     "description": "OwlAdmin 扩展包，用于记录用户操作日志",
     "type": "library",
-    "version": "1.0.0",
     "keywords": ["owl-admin", "extension"],
     "homepage": "https://github.com/slowlyo/owl-operation-log",
     "license": "MIT",
