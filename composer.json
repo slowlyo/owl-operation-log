@@ -1,0 +1,33 @@
+{
+    "name": "slowlyo/owl-operation-log",
+    "alias": "操作日志",
+    "description": "OwlAdmin 扩展包，用于记录用户操作日志",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["owl-admin", "extension"],
+    "homepage": "https://github.com/slowlyo/owl-operation-log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "slowlyo",
+            "email": "slowlyo_email@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "slowlyo/owl-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slowlyo\\OwlOperationLog\\": "src/"
+        }
+    },
+    "extra": {
+        "owl-admin": "Slowlyo\\OwlOperationLog\\OwlOperationLogServiceProvider",
+        "laravel": {
+            "providers": [
+                "Slowlyo\\OwlOperationLog\\OwlOperationLogServiceProvider"
+            ]
+        }
+    }
+}
