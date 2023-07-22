@@ -8,7 +8,7 @@
 
 #### zip 下载地址
 
-[https://github.com/slowlyo/owl-operation-log/repository/archive/master.zip](https://github.com/slowlyo/owl-operation-log/repository/archive/master.zip)
+[https://github.com/Slowlyo/owl-operation-log/archive/refs/heads/master.zip](https://github.com/Slowlyo/owl-operation-log/archive/refs/heads/master.zip)
 
 #### composer
 
