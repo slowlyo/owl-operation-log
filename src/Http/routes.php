@@ -1,6 +1,10 @@
 <?php
 
-use Slowlyo\OwlOperationLog\Http\Controllers;
 use Illuminate\Support\Facades\Route;
+use Slowlyo\OwlOperationLog\Http\Controllers;
 
-Route::get('admin_operation_log', [Controllers\OwlOperationLogController::class, 'index']);
+Route::resource('admin_operation_log', Controllers\OwlOperationLogController::class)->only([
+    'index',
+    'show',
+    'destroy',
+]);
