@@ -31,7 +31,7 @@ class OwlOperationLogController extends AdminController
                 amisMake()->TableColumn('method', '请求方法')->type('tag')->color('${method_color}'),
                 amisMake()->TableColumn('user.name', '用户'),
                 amisMake()->TableColumn('ip', 'IP'),
-                amisMake()->TableColumn('input')->breakpoint('*')->type('json'),
+                amisMake()->TableColumn('input', '请求数据')->breakpoint('*')->type('json'),
                 amisMake()
                     ->TableColumn()
                     ->label(__('admin.created_at'))
