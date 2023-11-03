@@ -13,7 +13,7 @@ class OperationLogMiddleware
 {
     protected array $secretFields = ['password', 'password_confirmation'];
 
-    protected array $except = ['current-user', 'menus', '_settings', 'admin_operation_log'];
+    protected array $except = ['current-user', 'menus', '_settings', 'admin_operation_log', 'dev_tools/*'];
 
     public function handle(Request $request, Closure $next)
     {
