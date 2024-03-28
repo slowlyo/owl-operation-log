@@ -93,7 +93,7 @@ class OperationLogMiddleware
 
     protected function getAllowedMethods()
     {
-        return (array)($this->setting('allowed_methods') ?: OperationLog::METHODS);
+        return (array)(explode(',', $this->setting('allowed_methods')) ?: OperationLog::METHODS);
     }
 
     protected function setting($key, $default = null)
